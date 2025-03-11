@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body {
+            background: url('background.jpg');
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: black;
+        }
+        .container {
+            background:rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 15px;
+            width: 350px;
+        }
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: red;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .navbar {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        .navbar a {
+            color:white;
+            text-decoration: none;
+            margin-left: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Jadwal</a>
+    </div>
+    <h1>Biodata</h1>
+    <div class="container">
+        <img src="Pasfoto_11zon.jpg" alt="Profile" class="profile-img">
+        <h3>Hermawan Yogi Wibisono</h3>
+        <br>
+        <p>NPM 2217051091</p>
+        <br>
+        <p>Jurusan Ilmu Komputer</p>
+        <br>
+        <p>Universitas Lampung</p>
+        
+    </div>
+
+    <form action="jadwal.html" method="post">
+        <a href="jadwal.html" class="btn">Lihat Jadwal</a>
+    </form>
+</body>
+</html>
