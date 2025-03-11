@@ -1,0 +1,76 @@
+body {
+  width: 1200px;
+  max-height: fit-content;
+  margin: 0px auto;
+  background-image: url('background.jpg') ;
+  background-size: cover;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header h3 {
+  float: left;
+}
+
+#nav {
+  text-align: right;
+  padding: 10px;
+}
+
+#nav li {
+  display: inline;
+  padding: 10px;
+}
+
+#nav a {
+  color: white;
+}
+
+.profile {
+  text-align: center;
+  padding: 10%;
+  border-radius: 20px;
+  border: solid wheat;
+  width: 280px;
+  height: 280px;
+  margin: 10px auto;
+  backdrop-filter: blur(5px);
+  color: wheat;
+}
+
+.profile img {
+  border-radius: 20px;
+  width: 50px;
+}
+
+.profile button {
+  background-color: bisque;
+  width: 100px;
+  height: 50px;
+}
+
+.profile a {
+  color: black;
+}
+
+.jadwal {
+  text-align: center;
+  padding: 20px;
+  color: wheat;
+}
+
+.jadwal th {
+  padding: 10px;
+  backdrop-filter: blur(5px);
+  border: solid wheat 1px;
+}
+
+.jadwal table {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
